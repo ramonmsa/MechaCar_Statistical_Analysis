@@ -3,9 +3,9 @@
 
 As per the results below, the coefficients vehicle_length and ground_clearance - not to mention the intercept - are statistically unlikely to provide random amounts of variance to the MPG values. 
 
-Moreover, the slope of our linear model is not zero since the **p-value** of the linear model presents the value **_5.35e-11_**, even though this value much smaller than our assumed significance level of 0.05%.
+Moreover, the slope of our linear model is not zero since the **p-value** of the linear model presents the value **_5.35e-11_**, even though this value is much smaller than the significance level of 0.05%.
 
-According the summary results below, the r-squared value is 0.71 let us afirm that the linear regration model predicts mpg as the correlation among the variables is considerably high.
+According the summary results below, since the r-squared value is 0.71 it let us afirm that the linear regration model predicts mpg as the correlation among the variables is considerably high.
 
 ```
 Call:

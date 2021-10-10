@@ -50,12 +50,12 @@ Considering that the significance level is 0.05 percent, the same p-value shown 
 
 ## Study Design: MechaCar vs Competition
 
-Considering that this study is to compare performance of the MechaCar vehicles against performance of vehicles from other manufacturers, the metric may be mpg fuel efficiency as it is of interest to the consumer.
+Considering that this study design is to compare performance of the MechaCar vehicles against performance of vehicles from other manufacturers, the metric may be mpg fuel efficiency as it is of interest to the consumer.
 
-In Addition, since the success metric is numerical and the sample size is large, a two-sample t-test may be used to compare the distribution of both groups. That way it will be possible to verify if is there a statistical difference between the distribution means from two samples
+In Addition, since the success metric is numerical and the sample size is large, a two-sample t-test may be used to compare the distribution of both groups. That way it will be possible to verify if there is a statistical difference between the distribution means from two samples.
 
 The null Hypothesis is that the difference between the paired observations is equal to zero, when the alternative Hypothesis is that the difference between our paired observations is not equal to zero.
 
-In order to run the statistical test the highway fuel efficiency variable will be need from both MechaCar vehicles and the competiion datasets only then we can use a paired t-test to determine if there is a statistical difference in overall highway fuel efficiency between vehicles.
+Therefore, in order to run the statistical test the highway fuel efficiency variable will be needed from both MechaCar vehicles and the competiion datasets only then we can use a paired t-test to determine if there is a statistical difference in overall highway fuel efficiency between vehicles from the two manufacturers.
 
 

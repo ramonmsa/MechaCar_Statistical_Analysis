@@ -34,7 +34,7 @@ F-statistic: 22.07 on 5 and 44 DF,  p-value: 5.35e-11
 
 ## Summary Statistics on Suspension Coils
 
-According to the sumary tables below, it can be concluded that even though the total summary show a variance of only 69.29 pounds per square inch, the Manufactoring loc number 3 exceeds the 100 pounds per square inch dictated by design specifications for the MechaCar suspension coils' variance. The lot 3 presents variance of 170.29 pounds per square inch as per the results in the lot summary.
+According to the summary tables below, it can be concluded that even though the total summary show a variance of only 69.29 pounds per square inch, the Manufactoring lot number 3 exceeds the 100 pounds per square inch dictated by design specifications for the MechaCar suspension coils' variance. The lot 3 presents variance of 170.29 pounds per square inch as per the results in the lot summary.
 
 ![image](https://user-images.githubusercontent.com/69650068/136680532-1f4f2a88-dc00-4027-8280-0776d332f79d.png)
 
@@ -56,6 +56,6 @@ In Addition, since the success metric is numerical and the sample size is large,
 
 The null Hypothesis is that the difference between the paired observations is equal to zero, when the alternative Hypothesis is that the difference between our paired observations is not equal to zero.
 
-Therefore, in order to run the statistical test the highway fuel efficiency variable will be needed from both MechaCar vehicles and the competiion datasets only then we can use a paired t-test to determine if there is a statistical difference in overall highway fuel efficiency between vehicles from the two manufacturers.
+Therefore, in order to run the statistical test the highway fuel efficiency variable will be needed from both MechaCar vehicles and the competition datasets only then we can use a paired t-test to determine if there is a statistical difference in overall highway fuel efficiency between vehicles from the two manufacturers.
 
 

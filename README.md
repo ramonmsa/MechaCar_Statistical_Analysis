@@ -32,5 +32,12 @@ Multiple R-squared:  0.7149,	Adjusted R-squared:  0.6825
 F-statistic: 22.07 on 5 and 44 DF,  p-value: 5.35e-11
 ```
 
+## Summary Statistics on Suspension Coils
+
+According to the sumary tables below, it can be concluded that even though the total summary show a variance of only 69.29 pounds per square inch, the Manufactoring loc number 3 exceeds the 100 pounds per square inch dictated by design specifications for the MechaCar suspension coils' variance. The lot 3 presents variance of 170.29 pounds per square inch as per the results in the lot summary.
+
+![image](https://user-images.githubusercontent.com/69650068/136680532-1f4f2a88-dc00-4027-8280-0776d332f79d.png)
+
+![image](https://user-images.githubusercontent.com/69650068/136680549-3d81a147-e4de-4592-b12c-20a71573c1dd.png)
 
   

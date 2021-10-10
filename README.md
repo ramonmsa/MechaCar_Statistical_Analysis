@@ -50,9 +50,6 @@ Considering that the significance level is 0.05 percent, the same p-value shown 
 
 ## Study Design: MechaCar vs Competition
 
-
-The statistical study design has the following: 
-
 Considering that this study is to compare performance of the MechaCar vehicles against performance of vehicles from other manufacturers, the metric may be mpg fuel efficiency as it is of interest to the consumer.
 
 In Addition, since the success metric is numerical and the sample size is large, a two-sample t-test may be used to compare the distribution of both groups. That way it will be possible to verify if is there a statistical difference between the distribution means from two samples

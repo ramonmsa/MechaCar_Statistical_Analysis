@@ -41,3 +41,10 @@ According to the sumary tables below, it can be concluded that even though the t
 ![image](https://user-images.githubusercontent.com/69650068/136680549-3d81a147-e4de-4592-b12c-20a71573c1dd.png)
 
   
+## T-Tests on Suspension Coils
+
+Considering that the significance level is 0.05 percent, the p-value shown to all 4 results (all manufacturing lots and each lot individually) is above our significance level. Therefore, we do not have sufficient evidence to reject the null hypothesis, and we would state that the two means are statistically similar.
+
+![image](https://user-images.githubusercontent.com/69650068/136682169-7404f80a-a967-4e96-a334-ab7820e4374d.png)
+
+

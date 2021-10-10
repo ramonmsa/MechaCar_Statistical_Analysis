@@ -8,6 +8,7 @@ lm_results = lm(mpg ~ vehicle_length + vehicle_weight + spoiler_angle + ground_c
 summary(lm_results)
 
 
+
 # Import dataset Suspension_Coil.csv
 suspension_Coil <- read.csv('source/Suspension_Coil.csv')
 # sumarize dataframe

@@ -1,3 +1,7 @@
+# folder containing the data source for the analysis
+source/
+
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]

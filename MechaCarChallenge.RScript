@@ -15,3 +15,18 @@ suspension_Coil <- read.csv('source/Suspension_Coil.csv')
 total_summary <- suspension_Coil %>% summarize( Mean = mean(PSI), Median = median(PSI), Variance = var(PSI), SD = sd(PSI), .groups = 'keep')
 # create summary table grouping by Manufacturing_Lot
 lot_summary <- suspension_Coil %>% group_by(Manufacturing_Lot) %>% summarize( Mean = mean(PSI), Median = median(PSI), Variance = var(PSI), SD = sd(PSI), .groups = 'keep')
+
+
+
+#compare sample versus population mean
+sample_table = suspension_Coil %>% sample_n(50)
+t.test(sample_table$PSI, mu=mean(suspension_Coil$PSI)) 
+
+#compare sample versus population mean for each subset
+t.test(sample_table$PSI, mu=mean(suspension_Coil$PSI), subset = sample_table$Manufacturing_Lot == 'Lot1')
+
+t.test(sample_table$PSI, mu=mean(suspension_Coil$PSI), subset = sample_table$Manufacturing_Lot == 'Lot2')
+
+t.test(sample_table$PSI, mu=mean(suspension_Coil$PSI), subset = sample_table$Manufacturing_Lot == 'Lot3')
+
+

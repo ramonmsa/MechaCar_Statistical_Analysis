@@ -43,8 +43,22 @@ According to the sumary tables below, it can be concluded that even though the t
   
 ## T-Tests on Suspension Coils
 
-Considering that the significance level is 0.05 percent, the p-value shown to all 4 results (all manufacturing lots and each lot individually) is above our significance level. Therefore, we do not have sufficient evidence to reject the null hypothesis, and we would state that the two means are statistically similar.
+Considering that the significance level is 0.05 percent, the same p-value shown to all manufacturing lots and all three lots individually is above our significance level. Therefore, we do not have sufficient evidence to reject the null hypothesis, and we would state that the two means are statistically similar.
 
 ![image](https://user-images.githubusercontent.com/69650068/136682169-7404f80a-a967-4e96-a334-ab7820e4374d.png)
+
+
+## Study Design: MechaCar vs Competition
+
+
+The statistical study design has the following: 
+
+Considering that this study is to compare performance of the MechaCar vehicles against performance of vehicles from other manufacturers, the metric may be mpg fuel efficiency as it is of interest to the consumer.
+
+In Addition, since the success metric is numerical and the sample size is large, a two-sample t-test may be used to compare the distribution of both groups. That way it will be possible to verify if is there a statistical difference between the distribution means from two samples
+
+The null Hypothesis is that the difference between the paired observations is equal to zero, when the alternative Hypothesis is that the difference between our paired observations is not equal to zero.
+
+In order to run the statistical test the highway fuel efficiency variable will be need from both MechaCar vehicles and the competiion datasets only then we can use a paired t-test to determine if there is a statistical difference in overall highway fuel efficiency between vehicles.
 
 

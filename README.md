@@ -5,7 +5,7 @@ As per the results below, the coefficients vehicle_length and ground_clearance -
 
 Moreover, the slope of our linear model is not zero since the **p-value** of the linear model presents the value **_5.35e-11_**, even though this value is much smaller than the significance level of 0.05%.
 
-According the summary results below, since the r-squared value is 0.71 it let us afirm that the linear regration model predicts mpg as the correlation among the variables is considerably high.
+According to the summary results below, since the r-squared value is 0.71 it let us afirm that the linear regration model predicts mpg as the correlation among the variables is considerably high.
 
 ```
 Call:
@@ -56,6 +56,6 @@ In Addition, since the success metric is numerical and the sample size is large,
 
 The null Hypothesis is that the difference between the paired observations is equal to zero, when the alternative Hypothesis is that the difference between our paired observations is not equal to zero.
 
-Therefore, in order to run the statistical test the highway fuel efficiency variable will be needed from both MechaCar vehicles and the competition datasets only then we can use a paired t-test to determine if there is a statistical difference in overall highway fuel efficiency between vehicles from the two manufacturers.
+Therefore, in order to run the statistical test the highway fuel efficiency variable will be needed from both MechaCar vehicles and the competition datasets, only then we can use a paired t-test to determine if there is a statistical difference in overall highway fuel efficiency between vehicles from the two manufacturers.
 
 

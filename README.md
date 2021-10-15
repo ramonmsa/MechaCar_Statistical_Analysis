@@ -5,7 +5,7 @@ As per the results below, the coefficients vehicle_length and ground_clearance -
 
 Moreover, the slope of our linear model is not zero since the **p-value** of the linear model presents the value **_5.35e-11_**, even though this value is much smaller than the significance level of 0.05%.
 
-According the summary results below, since the r-squared value is 0.71 it let us afirm that the linear regration model predicts mpg as the correlation among the variables is considerably high.
+According to the summary results below, since the r-squared value is 0.71 it let us afirm that the linear regration model predicts mpg as the correlation among the variables is considerably high.
 
 ```
 Call:
@@ -34,7 +34,7 @@ F-statistic: 22.07 on 5 and 44 DF,  p-value: 5.35e-11
 
 ## Summary Statistics on Suspension Coils
 
-According to the sumary tables below, it can be concluded that even though the total summary show a variance of only 69.29 pounds per square inch, the Manufactoring loc number 3 exceeds the 100 pounds per square inch dictated by design specifications for the MechaCar suspension coils' variance. The lot 3 presents variance of 170.29 pounds per square inch as per the results in the lot summary.
+According to the summary tables below, it can be concluded that even though the total summary show a variance of only 69.29 pounds per square inch, the Manufactoring lot number 3 exceeds the 100 pounds per square inch dictated by design specifications for the MechaCar suspension coils' variance. The lot 3 presents variance of 170.29 pounds per square inch as per the results in the lot summary.
 
 ![image](https://user-images.githubusercontent.com/69650068/136680532-1f4f2a88-dc00-4027-8280-0776d332f79d.png)
 
@@ -43,8 +43,19 @@ According to the sumary tables below, it can be concluded that even though the t
   
 ## T-Tests on Suspension Coils
 
-Considering that the significance level is 0.05 percent, the p-value shown to all 4 results (all manufacturing lots and each lot individually) is above our significance level. Therefore, we do not have sufficient evidence to reject the null hypothesis, and we would state that the two means are statistically similar.
+Considering that the significance level is 0.05 percent, the same p-value shown to all manufacturing lots and all three lots individually is above our significance level. Therefore, we do not have sufficient evidence to reject the null hypothesis, and we would state that the two means are statistically similar.
 
 ![image](https://user-images.githubusercontent.com/69650068/136682169-7404f80a-a967-4e96-a334-ab7820e4374d.png)
+
+
+## Study Design: MechaCar vs Competition
+
+Considering that this study design is to compare performance of the MechaCar vehicles against performance of vehicles from other manufacturers, the metric may be mpg fuel efficiency as it is of interest to the consumer.
+
+In Addition, since the success metric is numerical and the sample size is large, a two-sample t-test may be used to compare the distribution of both groups. That way it will be possible to verify if there is a statistical difference between the distribution means from two samples.
+
+The null Hypothesis is that the difference between the paired observations is equal to zero, when the alternative Hypothesis is that the difference between our paired observations is not equal to zero.
+
+Therefore, in order to run the statistical test the highway fuel efficiency variable will be needed from both MechaCar vehicles and the competition datasets, only then we can use a paired t-test to determine if there is a statistical difference in overall highway fuel efficiency between vehicles from the two manufacturers.
 
 

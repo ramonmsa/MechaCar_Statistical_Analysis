@@ -23,10 +23,10 @@ sample_table = suspension_Coil %>% sample_n(50)
 t.test(sample_table$PSI, mu=mean(suspension_Coil$PSI)) 
 
 #compare sample versus population mean for each subset
-t.test(sample_table$PSI, mu=mean(suspension_Coil$PSI), subset = sample_table$Manufacturing_Lot == 'Lot1')
+t.test(PSI~1, data = suspension_Coil , mu=1500, subset = Manufacturing_Lot == 'Lot1')
 
-t.test(sample_table$PSI, mu=mean(suspension_Coil$PSI), subset = sample_table$Manufacturing_Lot == 'Lot2')
+t.test(PSI~1, data = suspension_Coil , mu=1500, subset = Manufacturing_Lot == 'Lot2')
 
-t.test(sample_table$PSI, mu=mean(suspension_Coil$PSI), subset = sample_table$Manufacturing_Lot == 'Lot3')
+t.test(PSI~1, data = suspension_Coil , mu=1500, subset = Manufacturing_Lot == 'Lot3')
 
 
